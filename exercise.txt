@@ -2,3 +2,8 @@
 2) write a program to convert month into days 
 3) write a program to convert gram into kg 
 4) write a program to convert km into miles 
+
+5) write a program to findout & display area of rectangle 
+6) write a program to findout & display area of circle
+7) write a program to findout & display area of Triangle
+8) write a program to findout & display area of Sphere 
