@@ -7,3 +7,7 @@
 6) write a program to findout & display area of circle
 7) write a program to findout & display area of Triangle
 8) write a program to findout & display area of Sphere 
+
+9) write a program to convert grams into kilograms and remaining grams 
+10)write a program to convert inches into foot and remaining inches 
+
