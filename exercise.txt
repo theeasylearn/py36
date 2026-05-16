@@ -10,4 +10,3 @@
 
 9) write a program to convert grams into kilograms and remaining grams 
 10)write a program to convert inches into foot and remaining inches 
-
