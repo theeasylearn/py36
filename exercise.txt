@@ -10,3 +10,8 @@
 
 9) write a program to convert grams into kilograms and remaining grams 
 10)write a program to convert inches into foot and remaining inches 
+
+simple if
+------------------------
+1) write a program to findout which person is taller in 2 person. 
+2) write a program to findout whether user can purchase pan or not from available money and price of the pen. 
