@@ -1,24 +1,16 @@
-# pip install gensim
-from gensim.models import Word2Vec
+# python -m spacy download en_core_web_sm
+import spacy
 
-# Step 1: Prepare sentences (list of words)
-sentences = [
-    ["natural", "language", "processing", "is", "great"],
-    ["deep", "learning", "changed", "nlp"],
-    ["word", "embeddings", "are", "very", "useful"],
-    ["transformers", "are", "powerful", "for", "nlp"],
-]
+# Load a pre-trained English model
+nlp = spacy.load("en_core_web_sm")
 
-# Step 2: Train the model
-model = Word2Vec(
-    sentences=sentences, 
-    vector_size=100,   # Size of each word vector
-    window=3,          # How many words before/after to look at
-    min_count=1,       # Ignore words that appear less than this
-    sg=1,              # 1 = Skip-gram (better for small data)
-    epochs=10          # How many times to read the data
-)
+# Process text
+doc = nlp("Apple is looking at buying U.K. startup for $1 billion.")
 
-# Step 3: Use the model
-print("Words similar to 'nlp':")
-print(model.wv.most_similar("nlp", topn=5))
+# Access annotations
+for token in doc:
+    print(token.text, token.pos_, token.dep_)
+
+# Named entities
+for ent in doc.ents:
+    print(ent.text, ent.label_)
