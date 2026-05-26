@@ -1,5 +1,5 @@
 # write a program to accept purchase price and sales price from user. findout profit or loss amount
-purchase_price = int(input("Ente purchase price"))
+purchase_price = int(input("Enter purchase price"))
 sales_price = int(input("Enter sales price"))
 difference = sales_price - purchase_price
 if difference>0:
