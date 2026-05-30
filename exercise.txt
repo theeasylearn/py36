@@ -40,6 +40,12 @@ loop
 3)   1    8   27  64  .....    1000
 4)   0    1   1   2   3   5   8   13  .... 100
 
+write a program to make sum of all odd numbers between 1 to 100 & display it 
+write a program to count odd number and even numbers in given rate. display count of odd and even value 
+write a program to findout factorial of given number. 
+
+
+
 5) write a program to figure out whether given number  is composite number or not
 6) write a program to figure out whether given number  is perfect number or not
 7) write a program to figure out whether given number  is armstrong number or not
