@@ -10,4 +10,4 @@ while amount>0:
     total = total + reminder
     amount = amount // 10 # 1234
 
-print(total)
+print(total)  
