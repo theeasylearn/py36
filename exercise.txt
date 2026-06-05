@@ -61,6 +61,8 @@ for loop
 5) write a program to count vowels, consonants, digits, words, and symbol in given list 
 
 6) write a program to display and count only that countries that ends with asia.
+7) write a program to display find square root of all the numbers in tuple 
+8) write a program to findout minimum and maximum mark from dictionary which has 6 subject name and marks. 
 
 
 nested loop 
@@ -89,7 +91,6 @@ nested loop
 5 4 3
 5 4
 5
-
 
 
     1
