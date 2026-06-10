@@ -1,20 +1,32 @@
-# verify.py
-import spacy, json
-from spacy.tokens import DocBin
+Level 1: Beginner (Must Learn – Foundation)
+These are essential. Without these, you can’t understand RL.
 
-# Check JSON
-with open("training_data.json") as f:
-    data = json.load(f)
-print(f"JSON examples: {len(data)}")   # should be 11
+Introduction to Reinforcement Learning
+Agent, Environment, State, Action, Reward
+Markov Decision Process (MDP)
+Policy and Value Functions
 
-# Check .spacy file
-nlp = spacy.blank("en")
-db = DocBin().from_disk("train.spacy")
-docs = list(db.get_docs(nlp.vocab))
-print(f"Docs in train.spacy: {len(docs)}")   # should be 11
 
-total_ents = sum(len(doc.ents) for doc in docs)
-print(f"Total labeled entities: {total_ents}")  # should be 25+
+Bellman Equation
+Exploration vs Exploitation
+Multi-Armed Bandit Problem
+OpenAI Gym / Gymnasium
 
-for doc in docs:
-    print(f"  '{doc.text[:45]}' → {[(e.text, e.label_) for e in doc.ents]}")
+Goal: Understand the basic RL framework.
+
+Level 2: Intermediate (Very Important – Core Algorithms)
+Learn these after Level 1. These are enough for most jobs and projects.
+
+Dynamic Programming (Policy Evaluation, Policy Iteration, Value Iteration)
+Monte Carlo Methods
+Temporal Difference (TD) Learning + TD(0)
+SARSA Algorithm
+Q-Learning + Expected SARSA
+On-Policy vs Off-Policy Learning
+Function Approximation + Neural Networks for RL
+Deep Q-Network (DQN) + Experience Replay + Target Networks
+Policy Gradient Methods + REINFORCE
+Actor-Critic Architecture
+Proximal Policy Optimization (PPO) ← Currently the most used in practice
+
+Goal: Solve simple-to-medium problems (CartPole, LunarLander, simple games).
