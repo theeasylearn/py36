@@ -119,3 +119,8 @@ write a program that will calculate and display sum of even value into list. use
 write a program to edit program no 54. ask user his zodiac sign. must be any one of 12 zodiac sign. and then as zodiac sign extract rashi bhavishya pand play it. 
 
 download a new image from specific site at every 1 hour and display it as wallpaper. python program should automatically start when user start PC. 
+
+
+Recursion
+---------------
+Write a program to calculate sum of Numbers from 1 to n
